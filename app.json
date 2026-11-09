@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "PowerConnect",
+    "slug": "powerconnect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "zm.powerconnect.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "zm.powerconnect.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b989b2e6-9ad7-4c2a-a472-edef04f5e151"
+      }
+    },
+    "owner": "kmushore"
+  }
+}
